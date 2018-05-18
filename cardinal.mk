@@ -35,3 +35,7 @@ PRODUCT_NAME := cardinal_kuntao
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RELEASE_NAME := kuntao
+
+# MAINTAINER
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cardinal.maintainer=Subham
